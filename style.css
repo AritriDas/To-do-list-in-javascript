@@ -1,5 +1,47 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: linear-gradient(120deg, #FFC100, #F6EAB6);
+  color: white;
+  font-family: 'Crimson Text', serif;
+  font-weight: 900;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header, form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 20vh;
+}
+
+form input, form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: whitesmoke;
+}
+
+form button {
+  color: #FFC100;
+  background: white;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+form button :hover {
+  background: #FFC100;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

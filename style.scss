@@ -1,4 +1,42 @@
+$color : #FFC100;
+
 body {
     padding: 0;
     margin: 0;
+    background-image: linear-gradient(120deg, $color,  #F6EAB6);
+    color: white;
+    font-family: 'Crimson Text', serif;
+    font-weight: 900;
+    min-height: 100vh;
 }
+
+header {
+    font-size: 1.5rem;
+}
+
+header, form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: whitesmoke;
+}
+
+form button {
+    color: $color;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+    :hover {
+        background: $color;
+        color: white;
+    }
+}
+
